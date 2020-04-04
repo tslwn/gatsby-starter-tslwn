@@ -1,8 +1,10 @@
-import { tailwind as baseStyles } from "@theme-ui/presets"
-
 export default {
-  ...baseStyles,
-  styles: {
-    ...baseStyles.styles,
+  colors: {
+    text: '#000',
+    background: '#fff',
   },
-}
+  fonts: {
+    body:
+      'Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+  },
+};
