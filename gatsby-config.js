@@ -5,21 +5,22 @@ module.exports = {
     author: `@tslwn`,
   },
   plugins: [
+    `gatsby-plugin-typescript`,
     {
       resolve: `gatsby-plugin-webfonts`,
       options: {
         fonts: {
           google: [
             {
-              family: 'Roboto',
-              variants: ['400'],
+              family: `Roboto`,
+              variants: [`400`],
             },
           ],
         },
       },
     },
     `gatsby-plugin-react-helmet`,
-    'gatsby-plugin-theme-ui',
+    `gatsby-plugin-theme-ui`,
     `gatsby-theme-style-guide`,
   ],
-};
+}

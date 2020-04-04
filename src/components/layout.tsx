@@ -1,10 +1,9 @@
 /** @jsx jsx */
-import { Styled, jsx } from 'theme-ui';
-import React from 'react';
-import PropTypes from 'prop-types';
-import 'normalize.css';
+import { Styled, jsx } from 'theme-ui'
+import React from 'react'
+import 'normalize.css'
 
-const Layout = ({ children }) => {
+const Layout: React.FC = ({ children }) => {
   return (
     <Styled.root>
       <div
@@ -19,11 +18,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </div>
     </Styled.root>
-  );
-};
+  )
+}
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
-
-export default Layout;
+export default Layout
