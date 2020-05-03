@@ -4,6 +4,6 @@ export default {
     background: `#fff`,
   },
   fonts: {
-    body: `Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif`,
+    body: `Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif`,
   },
 }
